@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Data Visualisations
-cover: /rub_corpus_and_code/images/grey.png
-permalink: /rub_corpus_and_code/visuals/
+cover: /images/grey.png
+permalink: /visuals/
 ---
 
 This page showcases some of sentiment analysis results produced by the [RUB Corpus](/rub_corpus_and_code/corpus/) and [Code](/rub_corpus_and_code/code/).

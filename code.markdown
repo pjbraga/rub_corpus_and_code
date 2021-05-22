@@ -1,8 +1,8 @@
 ---
 layout: page
 title: The Code
-cover: /rub_corpus_and_code/images/orange.png
-permalink: /rub_corpus_and_code/code/
+cover: /images/orange.png
+permalink: /code/
 ---
 The RUB Code collection is a series of programs used to (1) assemble the [RUB Corpus](/rub_corpus_and_code/corpus/) and (2) conduct a Russian-language, lexicon-based, sentiment analysis upon the RUB Corpus. 
 

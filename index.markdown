@@ -1,7 +1,6 @@
 ---
 layout: home
 title: RUB Corpus and Code
-permalink: /rub_corpus_and_code/
 ---
 
 RUB Corpus and Code are two downloadable, open-source collections. 

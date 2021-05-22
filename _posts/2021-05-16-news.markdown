@@ -3,7 +3,7 @@ layout: post
 title:  "RUB Code and Corpus Repositories Uploaded"
 date:   2021-05-16 13:18:58 +0100
 categories: news
-cover: /rub_corpus_and_code/images/teal.png
+cover: /images/teal.png
 ---
 The RUB Corpus and Code [GitHub repository]() has now been updated to host the corpus and code files. 
 

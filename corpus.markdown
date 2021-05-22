@@ -1,8 +1,8 @@
 ---
 layout: page
 title: RUB Corpus
-cover: /rub_corpus_and_code/images/blue.png
-permalink: /rub_corpus_and_code/corpus/
+cover: /images/blue.png
+permalink: /corpus/
 ---
 The RUB Corpus is a collection of Russian-language official government speeches, interviews, and press releases made by top policymakers in Russia, Ukraine, and Belarus from 2006 to 2016.
 
