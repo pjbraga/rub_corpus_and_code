@@ -36,10 +36,7 @@ The Corpus files can be utilised by any language that is suitable for text-proce
 The sources for the RUB Corpus texts are online, official government archives. Therefore, the data is already within the public domain and can be used however the user sees fit.
 
 ### The Code (Sentiment Analysis) Files
-[The Code](https://github.com/pjbraga/rub_corpus_and_code/tree/main/_code) is a series of programs used to: 
-
-(1) assemble the [RUB Corpus](https://github.com/pjbraga/rub_corpus_and_code/tree/main/_corpus) and; 
-(2) conduct a Russian-language, lexicon-based, sentiment analysis upon the RUB Corpus. 
+[The Code](https://github.com/pjbraga/rub_corpus_and_code/tree/main/_code) is a series of programs used to: (1) assemble the [RUB Corpus](https://github.com/pjbraga/rub_corpus_and_code/tree/main/_corpus) and; (2) conduct a Russian-language, lexicon-based, sentiment analysis upon the RUB Corpus. 
 
 All the Code scripts are writtin in [python](https://docs.python.org/3/).
 
