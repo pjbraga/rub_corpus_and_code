@@ -8,11 +8,11 @@
 
 RUB Corpus and Code are two downloadable, open-source collections. 
 
-The [RUB Corpus](/rub_corpus_and_code/corpus/) is a collection of Russian-language official government speeches, interviews, and press releases made by top policymakers in Russia, Ukraine, and Belarus from 2006 to 2016.
+The [RUB Corpus](/corpus/) is a collection of Russian-language official government speeches, interviews, and press releases made by top policymakers in Russia, Ukraine, and Belarus from 2006 to 2016.
 
 The first image at the top of this README is a screenshot of the corpus collection for Belarus.
 
-The [Code](/rub_corpus_and_code/code/) represents the programs used to compile the RUB Corpus and to conduct a lexicon-based sentiment analysis upon the RUB Corpus.
+The [Code](/code/) represents the programs used to compile the RUB Corpus and to conduct a lexicon-based sentiment analysis upon the RUB Corpus.
 
 The second image above is a screenshot of a lemmatisation function, which is part of the sentiment analysis Code.
 
@@ -38,7 +38,7 @@ The sources for the RUB Corpus texts are online, official government archives. T
 ### The Code (Sentiment Analysis) Files
 The Code is a series of programs used to: 
 
-(1) assemble the [RUB Corpus](/rub_corpus_and_code/site/corpus/) and; 
+(1) assemble the [RUB Corpus](/corpus/) and; 
 (2) conduct a Russian-language, lexicon-based, sentiment analysis upon the RUB Corpus. 
 
 All the Code scripts are writtin in [python](https://docs.python.org/3/).
