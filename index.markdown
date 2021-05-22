@@ -32,6 +32,15 @@ To cite any part of this website (such as where the RUB Copus and Code repositor
 
 For use of the RUB Corpus and Code repositories (for a project or any academic research), please cite the above website citation. 
 
+### Expanding the RUB Project
+The next project aim is to expand the [RUB Corpus](/corpus/) to include presidential and prime ministerial texts up until 2021. 
+
+In addition, where it is possible, the list of politicians and forums being sourced would also be expanded. For example, notable members of the Russian Duma and Ukrainian Rada could be added to the RUB collection.
+
+Another important project connected to the RUB Corpus and Code is the building of Russian-language sentiment analysis training datasets. 
+
+Please use the contact below if you have any interest in participating to improve or to expand this project.
+
 ### Contact
 For issues with the RUB Corpus and Code repositories, please use <a href="https://github.com/pjbraga/rub_corpus_and_code">GitHub</a>. 
 
