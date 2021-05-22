@@ -2,9 +2,9 @@
 
 ### Russian-Language Corpus & Lexicon-Based Sentiment Analysis
 
-![Corpus Organisation](/rub_corpus_and_code/images/corpus_org.png)
+![Corpus Organisation](/images/corpus_org.png)
 
-![The Code](/rub_corpus_and_code/images/code_example.png)
+![The Code](/images/code_example.png)
 
 RUB Corpus and Code are two downloadable, open-source collections. 
 
