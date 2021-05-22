@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="RUB Corpus and Code" />
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Data Visualisations | RUB Corpus and Code</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="Data Visualisations" />
+<meta name="author" content="Peter Braga" />
+<meta property="og:locale" content="en" />
+<link rel="canonical" href="http://localhost:4000/visuals.html" />
+<meta property="og:url" content="http://localhost:4000/visuals.html" />
+<meta property="og:site_name" content="RUB Corpus and Code" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Data Visualisations" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/visuals.html","headline":"Data Visualisations","author":{"@type":"Person","name":"Peter Braga"},"@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="/assets/css/open-color.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+  
+
+</head>
+
+
+  <body>
+    <div id="layout" class="pure-g">
+      
+      
+      <div class="sidebar pure-u-1 pure-u-md-1-4" style="background-image: url(/images/grey.png);">
+        <header class="header">
+  <a class="brand-title" href="/">RUB Corpus and Code</a>
+  <p class="brand-tagline"></p>
+
+  
+    <nav class="nav pure-menu">
+      <ul class="pure-menu-list">
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/" class="pure-menu-link ">
+            Home
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/news/" class="pure-menu-link ">
+            News
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/corpus/" class="pure-menu-link ">
+            Corpus
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/code/" class="pure-menu-link ">
+            Code
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/visuals/" class="pure-menu-link ">
+            Data Visualisations
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="https://pjbraga.github.io/rub_corpus_and_code/" class="pure-menu-link ">
+            GitHub
+          </a>
+        </li>
+      
+      </ul>
+    </nav>
+  
+
+  
+</header>
+
+      </div>
+      <div class="content pure-u-1 pure-u-md-3-4">
+        <article class="page">
+  <h1 class="page-title">Data Visualisations</h1>
+  <p>This page showcases some of sentiment analysis results produced by the <a href="/corpus/">RUB Corpus</a> and <a href="/code/">Code</a>.</p>
+
+<h3 id="introduction">Introduction</h3>
+<p>The following is some general information about the RUB Corpus and Code.</p>
+
+<p>The <a href="/corpus/">RUB Corpus</a> is a collection of 71,515 Russian language texts published between 01 January 2006 to 31 December 2016.</p>
+
+<p>RUB is an acronym of the countries where the texts originated from: Russia, Ukraine, and Belarus.</p>
+
+<p>A text is sentences spoken by an incumbent president, prime minister, or minister of foreign affairs from a single speech, interview, or official press release on a particular date.</p>
+
+<p>The sources for these texts are online, official government archives.</p>
+
+<p>The texts were gathered as part of a PhD dissertation analysing policymakers’ sentiments concerning bilateral relationships (Russian policymakers’ opinion towards China, for example) over time.</p>
+
+<p>The <a href="/code/">RUB Code</a> was used to carry out this sentiment analysis of Russian, Ukrainian, and Belarusian policymakers’ official texts.</p>
+
+<p>The RUB Corpus and Code can be downloaded from the <a href="/corpus/">Corpus page</a> and <a href="/code/">Code page</a>.</p>
+
+<h3 id="rub-sentiment-analysis">RUB Sentiment Analysis</h3>
+<p>These are some of the sentiment analysis results visualised using R software (<a href="https://www.r-project.org/">R Core Team 2020</a>).</p>
+
+<p>This is Ukrainian top policymakers’ (Prime Ministers and Presidents) sentiment towards Russia from 2006 to 2016:</p>
+
+<p><img src="/images/eda_trend_test_ukr_rus_3.png" alt="Ukraine_to_Russia" /></p>
+
+<p>The x-axis, labelled “Quarters 2006–2016,” presents the analyse corpuse data (from 2006 to 2016) in quarters. A four character tag indicates the year and first quarter. The characters “06Q1,” for example, denotes the first quarter (January, February, March) of 2006.</p>
+
+<p>The y-axis, labelled “Sentiment-Bearing Sentences,” tallies the number of sentences categorised by the RUB Code sentiment analysis programs.</p>
+
+<p>The four lines with differnt colours and patterns track the language-bearing sentiments: a green, solid line for positive sentiment; a red, dashed line for negative sentiment; a blue, dotted line for neutral (non-sentiment bearing) language; and an orange, dot-dash line for ambiguous sentiment.</p>
+
+<p>A solid, purple trendline rises across the graph. This is a trendline, which shows the average change (trend) for the single, most prevalent sentiment (either positive or negative). In the image above, the trendline shows a growing negative trend.</p>
+
+<p>Atop the trendline is a marker, “x,” indicating the trendline slope to three decimal places. In the image above, x = “3.872.” This literally means every quarter, on average, Ukrainian policymakers mention Russia negatively in 3.872 separate sentences each quarter.</p>
+
+<p>The list titled “Sentiment” to the right of the line-plot provides a
+legend of the sentiments and trendline. On certain plots, there are boxes with white coloured text inside.</p>
+
+<p>In the image, the positive and negative sentiment plots (solid-green and dashed-red respectively) demonstrate differing relations with Russia across three different time periods.</p>
+
+<p>The years in the graph before Yanukovych’s presidency (2006 through 2009), Ukraine’s relations with Russia were mixed. President Viktor Yushchenko (incumbent 2005–2010) had a rocky relationship with Russia for many reasons (<a href="https://global.oup.com/ushe/product/the-conflict-in-ukraine-9780190237288?cc=gb&amp;lang=en&amp;">Yekelchyk, 2015, p. 97</a>). This is clearly illustrated in the image above by the interchanging positive and negative sentiment plots. In particular, there were disputes over natural gas prices (<a href="https://www.waterstones.com/book/the-ukrainians/andrew-wilson/9780300217254">Wilson, 2015, pp. 338–340</a>). These are visible by jumps in negative sentiment. On 1 January 2006, Russia cut off its gas supply to Ukraine. In figure 6.1, there is a corresponding negative spike Q1 2006. Gas disputes are also depicted by negative spikes in Q4 2007, Q1 2008, and Q1 2009.</p>
+
+<p>In 2010, Viktor Yanukovych’s presidency began, which was reported to be sympathetic to the Kremlin. At once in Q1 2010, the positivity of top policymakers towards Russia shifts dramatically, clearly showing this to pro-Kremlin slant to be true.</p>
+
+<p>This pro-Kremlin tone maintains itself until Yanukovych’s 2013 manoeuvring between Russia’s Customs Union and the EU’s Association Agreement (<a href="https://www.waterstones.com/book/the-ukrainians/andrew-wilson/9780300217254">Wilson, 2015, p. 348</a>; <a href="http://publications.europa.eu/resource/cellar/f110f67b-0305-11e7-8a35-01aa75ed71a1.0001.03/DOC_2">Makocki &amp; Popescu, 2016, p. 42</a>). This is indicated by the rise in negative sentiment in Q3 and Q4 2013.</p>
+
+<p>Finally, the explosions of negative sentiment during and after Q1 2014 illustrate Russia’s aggressive actions against Ukraine, Yanukovych’s abandonment of Ukraine, and President Poroshenko’s loudly anti-Russia regime taking power. The visualised SA results demonstrate all these major changes in bilateral ties.</p>
+
+<h3 id="russian-policymakers-discussing-the-eu">Russian Policymakers Discussing the EU</h3>
+<p>This is Russian top policymakers’ (Prime Ministers, Presidents, and Foreign Minister) sentiment towards the European Union (EU) from 2006 to 2016:</p>
+
+<p><img src="/images/eda_trend_test_rus_eu_1.png" alt="Russia_to_EU" /></p>
+
+<p>The graph features, line colours and patterns, and legend represent the same information as the first image on this page. But in this case, it is Russian policymakers’ sentiment towards the EU.</p>
+
+<p>On 17 March 2014, the EU responded to Russia’s annexation of Crimea by with individual sanctions (consisting of 177 people and 48 entities) (<a href="https://www.consilium.europa.eu/en/policies/sanctions/ukraine-crisis/">European Council 2020</a>). As the year progressed and Russia-Ukraine relations deteriorated, so were EU sanctions expanded.</p>
+
+<p>In the image directly above, Russian policymakers speak of the EU more negatively from the second quarter of 2014 (14Q2).</p>
+
+<p>There are certainly more detailed conclusions to be drawn from this Russian-policymakers-discussing-the-EU image above.</p>
+
+<p>The key take-away is how well the sentiment analysis results function as a visualisation of one country’s bilateral relations towards another country or group of countries.</p>
+
+<h3 id="policymaker-sentiment-on-social-issues">Policymaker Sentiment on Social Issues</h3>
+<p>Another use for SA is to compare policymakers’ opinion on various social issues.</p>
+
+<p>For example, this next image is tracks Russian policymakers’ sentiment towards democracy from 2006 to 2016:</p>
+
+<p><img src="/images/said_democracy_pos_tl.png" alt="Russia_Democracy" /></p>
+
+<p>It is clear in this image, top Russian policymakers speak about democracy in positive terms (see the solid green line).</p>
+
+<p>But these policymakers speak about democracy less often over time.</p>
+
+<p>This decline in speaking about democracy is shown by the downwardpositive sentiment trendline (solid purple), along with a steady reduction in the positive sentiment (solid green) and the remaining sentiment lines remain mostly static.</p>
+
+<p>The positivity spike in Q3 2010 is produced by a conference on contemporary governance, which then Russian President Dmitry Medvedev was an active participant (<a href="http://kremlin.ru/events/president/transcripts/8887">Kremlin, 2010</a>). This is at the height of Russia’s “virtual thaw” with the West (<a href="https://www.amazon.co.uk/Authoritarian-Russia-Analyzing-Post-Soviet-European/dp/082296368X">Gelʹman, 2015, pp. 113–114</a>). During this virtual thaw, Medvedev was the image of a more liberal and, possibly, reformist Russia, while in reality Prime Minister
+Vladimir Putin maintained or increased his control.</p>
+
+<p>The other noticeable positive spikes in Q4 2011 and Q2 2012 relate to the 2011 legislative elections and the 2012 presidential elections. Vladimir Putin and his United Russia party were alleged to have rigged both elections (<a href="https://www.thetimes.co.uk/article/president-putin-accused-of-rigging-russian-elections-0kn9hk7dw59">Hoyle, 2013</a>).</p>
+
+<p>The steady decline of “democracy” being mentioned together with positive language on each side of Medvedev’s 2008–2012 fits the argument of a Russia backsliding from democracy under Putin.</p>
+
+<h3 id="summary">Summary</h3>
+<p>These visualisations show just how easily Russian-language sentiment analysis can be applied in other social science disciplines.</p>
+
+<p>The approach used for the RUB Corpus and Code could be refined to track what policymakers have to say on a range of issues, and then compare the results with policy developments.</p>
+
+<p>Feel free to contact the author of this project for suggestions of how to expand and improve this work.</p>
+
+<h3 id="contact">Contact</h3>
+<p>For issues with the RUB Corpus and Code repositories, please use <a href="https://pjbraga.github.io/rub_corpus_and_code/">GitHub</a>.</p>
+
+<p>For general questions about this project or any ideas for academic collaboration, feel free to contact Peter Braga at: pjbraga.rubcc@gmail.com.</p>
+
+<h3 id="page-references">Page References</h3>
+<p class="reference"><strong>European Council.</strong> (2020, October 5). EU restrictive measures in response to the crisis in Ukraine [Government website]. Council of the European Union. Available at <a href="https://www.consilium.europa.eu/en/policies/sanctions/ukraine-crisis/">https://www.consilium.europa.eu/en/policies/sanctions/ukraine-crisis/</a>.</p>
+<p class="reference"><strong>Gelʹman, V.</strong> (2015). Authoritarian Russia: Analyzing post-Soviet regime changes. University of Pittsburgh Press.</p>
+<p class="reference"><strong>Hoyle, B.</strong> (2013, March 14). President Putin accused of rigging Russian elections. The Times. Available at: <a href="https://www.thetimes.co.uk/article/president-putin-accused-of-rigging-russian-elections-0kn9hk7dw59">https://www.thetimes.co.uk/article/president-putin-accused-of-rigging-russian-elections-0kn9hk7dw59</a>.</p>
+<p class="reference"><strong>The Kremlin.</strong> (2010, September 10). “Vystuplenie na plenarnom zasedanii mirovogo politicheskogo foruma "Sovremennoe gosudarstvo: Standarty demokratii i kriterii effektivnosti’” [Speech at the plenary session of the international political forum, ‘The Modern State: Standards of Democracy and Criteria of Effectiveness’] [Government website]. President of Russia. Available at: <a href="http://kremlin.ru/events/president/transcripts/8887">ttp://kremlin.ru/events/president/transcripts/8887</a>.</p>
+<p class="reference"><strong>Makocki, M., &amp; Popescu, N.</strong> (2016). China and Russia: An Eastern partnership in the making? European Union Institute for Security Studies. <a href="http://publications.europa.eu/resource/cellar/f110f67b-0305-11e7-8a35-01aa75ed71a1.0001.03/DOC_2">http://publications.europa.eu/resource/cellar/f110f67b-0305-11e7-8a35-01aa75ed71a1.0001.03/DOC_2</a>.</p>
+<p class="reference"><strong>R Core Team.</strong> (2020). R: A language and environment for statistical computing. R Foundation for Statistical Computing. <a href="https://www.R-project.org/">https://www.R-project.org/</a>.</p>
+<p class="reference"><strong>Wilson, A.</strong> (2015). The Ukrainians: Unexpected Nation (Fourth edition). Yale University Press. Available at: <a href="https://yalebooks.co.uk/display.asp?k=9780300217254">https://yalebooks.co.uk/display.asp?k=9780300217254</a>.</p>
+<p class="reference"><strong>Yekelchyk, S.</strong> (2015). The conflict in Ukraine: What everyone needs to know. Oxford University Press.<a href="https://global.oup.com/ushe/product/the-conflict-in-ukraine-9780190237288?cc=gb&amp;lang=en&amp;">https://global.oup.com/ushe/product/the-conflict-in-ukraine-9780190237288?cc=gb&amp;lang=en&amp;</a>.</p>
+
+</article>
+
+
+        <footer class="footer pure-g">
+  <div class="pure-u-1 pure-u-md-1-2">
+    <small>
+      &copy;&nbsp;<time datetime="2021-05-19T18:17:47+01:00">2021</time>&nbsp;<a href="http://www.peterbraga.com/" target="_blank">Peter Braga</a>. All rights reserved.
+    </small>
+  </div>
+
+  <div class="pure-u-1 pure-u-md-1-2">
+    <small>
+      Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> & code grafted from <a href="https://github.com/zivong/jekyll-theme-hydure" target="_blank">Hydure.
+    </small>
+  </div>
+</footer>
+
+      </div>
+    </div>
+
+    
+
+    
+  </body>
+</html>

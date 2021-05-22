@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="RUB Corpus and Code" />
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>RUB Corpus | RUB Corpus and Code</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="RUB Corpus" />
+<meta name="author" content="Peter Braga" />
+<meta property="og:locale" content="en" />
+<link rel="canonical" href="http://localhost:4000/corpus.html" />
+<meta property="og:url" content="http://localhost:4000/corpus.html" />
+<meta property="og:site_name" content="RUB Corpus and Code" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="RUB Corpus" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/corpus.html","headline":"RUB Corpus","author":{"@type":"Person","name":"Peter Braga"},"@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="/assets/css/open-color.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+  
+
+</head>
+
+
+  <body>
+    <div id="layout" class="pure-g">
+      
+      
+      <div class="sidebar pure-u-1 pure-u-md-1-4" style="background-image: url(/images/blue.png);">
+        <header class="header">
+  <a class="brand-title" href="/">RUB Corpus and Code</a>
+  <p class="brand-tagline"></p>
+
+  
+    <nav class="nav pure-menu">
+      <ul class="pure-menu-list">
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/" class="pure-menu-link ">
+            Home
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/news/" class="pure-menu-link ">
+            News
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/corpus/" class="pure-menu-link ">
+            Corpus
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/code/" class="pure-menu-link ">
+            Code
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/visuals/" class="pure-menu-link ">
+            Data Visualisations
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="https://pjbraga.github.io/rub_corpus_and_code/" class="pure-menu-link ">
+            GitHub
+          </a>
+        </li>
+      
+      </ul>
+    </nav>
+  
+
+  
+</header>
+
+      </div>
+      <div class="content pure-u-1 pure-u-md-3-4">
+        <article class="page">
+  <h1 class="page-title">RUB Corpus</h1>
+  <p>The RUB Corpus is a collection of Russian-language official government speeches, interviews, and press releases made by top policymakers in Russia, Ukraine, and Belarus from 2006 to 2016.</p>
+
+<p>The Corpus is divided by country in plain text .tsv files.</p>
+
+<h3 id="introduction">Introduction</h3>
+<p>The corpus is a collection of 71,515 Russian-language texts published
+between 01 January 2006 to 31 December 2016.</p>
+
+<p>A text is sentences spoken by an incumbent president, prime minister, or minister of foreign affairs from a single speech, interview, or official press release on a particular date.</p>
+
+<p>The sources for these texts are online, official government archives.</p>
+
+<p>The texts were gathered as part of a PhD dissertation to trace how policymakers’ opinions on particular subjects changed over time.</p>
+
+<p>Tracking what top policymakers say relates to the strong influence leaders and key officials have on policy development in nondemocratic regimes (<a href="https://doi.org/10.1080/21599165.2017.1304382">Ambrosio, 2017, pp. 203–204</a>; <a href="https://www.foreignaffairs.com/articles/russia-fsu/2016-04-18/russian-politics-under-putin">Pavlovsky, 2016, pp. 10–16</a>; <a href="https://oz.by/books/more10931323.html">Rudyj, 2020, p. 198</a>).</p>
+
+<p>The corpus can be used, for example, to analyse the sentiments (positive, negative, neutral, or ambiguous) of Russian, top policymakers about NATO, or democracy, or relations with the United States or the EU, and so on.</p>
+
+<p>The code used to carry out this sentiment analysis can be found on the <a href="/code/">Code page</a>.</p>
+
+<p>For examples of how the corpus and code can be used, see the <a href="/visuals/">Data Visualisations page</a>.</p>
+
+<h3 id="the-collections">The Collections</h3>
+<p>The texts were gathered using Python 3.7.1 (<a href="https://www.python.org/downloads/release/python-371/">Van Rossum &amp; Drake, 2018</a>), BeautifulSoup 4.7.1 (<a href="https://www.crummy.com/software/BeautifulSoup/bs4/download/4.7/">Richardson, 2019</a>) and other Python third party software (such as Pandas) to crawl webpages and scrape the relevant texts (<a href="https://pandas.pydata.org/pandas-docs/stable/whatsnew/v0.24.1.html">PyData Development Team, 2019</a>; <a href="https://github.com/psf/requests-html">Reitz, 2019</a>).</p>
+
+<h4 id="russia">Russia</h4>
+<p>14,165 texts were collected for Vladimir Putin, Dmitry Medvedev, and Sergei Lavrov. Sources for Russian policymakers include the President of Russia website (<a href="http://kremlin.ru/events/president/transcripts">Kremlin, 2020</a>), two Government of Russia websites for Prime Ministerial texts (<a href="http://government.ru/news/">Government of Russia, 2020</a>; <a href="http://archive.premier.gov.ru/events/news/">Office of the Prime Minister, 2012</a>), and the Russian Ministry of Foreign Affairs website (<a href="https://www.mid.ru/ru/press_service/minister_speeches/">MFA of Russia, 2020</a>).</p>
+
+<h4 id="ukraine">Ukraine</h4>
+<p>51,827 texts were collected for 12 policymakers (four presidents and eight prime ministers). The sources for Ukraine’s policymakers are various iterations of its “Government Portal” (<a href="http://old.kmu.gov.ua/kmu/control/publish/">Government Portal, 2017</a>), which archived the majority of top officials’ speeches and interviews from the early 2000s to the present. But when Ukrainian President Petro Poroshenko lost re-election to Zelenski in 2018, the portal’s presidential archive was abruptly taken offline. Therefore, the internet-archiving site, Wayback Machine (<a href="https://archive.org/help/wayback_api.php">Internet Archive, 2020</a>), had to be used to source Ukrainian Presidential texts. The still accessible elements of the Government Portal archive were used for the Prime Ministerial texts.</p>
+
+<h4 id="belarus">Belarus</h4>
+<p>5523 texts were compiled for nominal Belarusian President Aleksandr Lukashenka only. Online resources for other top Belarusian policymakers were scattered, limited, or non-existent. Sources for Lukashenka, on the other hand, are comprehensive and compiled from the “President of Belarus” website (<a href="http://president.gov.by/ru/news_ru/archive/page/">Presidential Press Service of the Republic of Belarus, 2020</a>).</p>
+
+<h3 id="corpus-download">Corpus Download</h3>
+<p>To use any of the corpus collections, please use the following citation:</p>
+
+<p class="reference"><strong>Braga, P.</strong> (2020). RUB Corpus and Code. Project website. Available at:<a href="https://pjbraga.github.io/rub_corpus_and_code/"> https://pjbraga.github.io/rub_corpus_and_code/</a>.</p>
+
+<p>The RUB Corpus collections are currently available as zip files in .tsv format:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/images/database_image.png" alt="Russia" /></td>
+      <td><img src="/images/database_image.png" alt="Ukraine" /></td>
+      <td><img src="/images/database_image.png" alt="Belarus" /></td>
+    </tr>
+    <tr>
+      <td><a href="/https://pjbraga.github.io/rub_corpus_and_code/_corpus/russia_all_texts.tsv.zip/">Russia</a></td>
+      <td><a href="https://pjbraga.github.io/rub_corpus_and_code/_corpus/ukraine_all_texts.tsv.zip">Ukraine</a></td>
+      <td><a href="https://pjbraga.github.io/rub_corpus_and_code/_corpus/belarus_all_texts.tsv.zip">Belarus</a></td>
+    </tr>
+    <tr>
+      <td>Russian policymakers (Presidents/Prime Ministers Vladimir Putin and Dmitry Medvedev, and Minister of Foreign Affairs Sergei Lavrov) collection, 2006–2016</td>
+      <td>Ukraine policymakers (Presidents Viktor Yushchenko, Viktor Yanukovych, Oleksandr Turchynov, and Petro Poroshenko. Prime Ministers Yuri Yekhanurov, Viktor Yanukovych, Yulia Tymoshenko, Oleksandr Yurchynov, Mykola Azarov, Sergei Arbuzov, Arseniy Yatsenyuk, and Volodymyr Groysman) collection, 2006–2016</td>
+      <td>Belarusian policymaker (President Aleksander Lukashenka) collection, 2006–2016</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="corpus-organisation">Corpus Organisation</h3>
+<p>The corpus texts are arranged in a .tsv (tab-separated values) file.</p>
+
+<p>The first column gives a text’s publication date, the second column has corresponding href for the text, and the third column contains the text.</p>
+
+<p>For example:
+<img src="/images/corpus_org.png" alt="Corpus Organisation" /></p>
+
+<h3 id="questions-or-issues">Questions or Issues</h3>
+<p>For issues with the RUB Corpus and Code repositories, please use <a href="https://pjbraga.github.io/rub_corpus_and_code/">GitHub</a>.</p>
+
+<p>For general questions about this project or any ideas for academic collaboration, feel free to contact Peter Braga at: pjbraga.rubcc@gmail.com.</p>
+
+<h3 id="page-references">Page References</h3>
+<p class="reference"><strong>Ambrosio, T.</strong> (2017). The fall of Yanukovych: Structural and political constraints to implementing authoritarian learning. <i>East European Politics</i>, 33(2), 184–209. Available at: <a href="https://doi.org/10.1080/21599165.2017.1304382">https://doi.org/10.1080/21599165.2017.1304382</a>.</p>
+<p class="reference"><strong>Government of Russia.</strong> (2020). Government of Russia: News. Available at: <a href="http://government.ru/news/">http://government.ru/news/</a>.</p>
+<p class="reference"><strong>Government Portal.</strong> (2017). Government Portal [Government website]. Ukrainian Government Portal. Available at: <a href="http://old.kmu.gov.ua/kmu/control/publish/">http://old.kmu.gov.ua/kmu/control/publish/</a>.</p>
+<p class="reference"><strong>Internet Archive.</strong> (2020). Wayback Availability JSON API. Wayback Machine. Available at: <a href="https://archive.org/help/wayback_api.php">https://archive.org/help/wayback_api.php</a>.</p>
+<p class="reference"><strong>Kremlin.</strong> (2020). President of Russia: Transcripts [Government website]. President of Russia. Available at: <a href="http://kremlin.ru/events/president/transcripts">http://kremlin.ru/events/president/transcripts</a>.</p>
+<p class="reference"><strong>Loukachevitch, N. and Levchik, A.</strong> (2016). Creating a General Russian Sentiment Lexicon. In Proceedings of Language Resources and Evaluation Conference LREC-2016. Available at: <a href="http://www.lrec-conf.org/proceedings/lrec2016/pdf/285_Paper.pdf">http://www.lrec-conf.org/proceedings/lrec2016/pdf/285_Paper.pdf</a>.</p>
+<p class="reference"><strong>MFA of Russia.</strong> (2020). Ministerial Speeches: Minister of Foreign Affairs of the Russian Federation. Available at: <a href="https://www.mid.ru/ru/press_service/minister_speeches/">https://www.mid.ru/ru/press_service/minister_speeches/</a>.</p>
+<p class="reference"><strong>Office of the Prime Minister.</strong> (2012). Archive of the Official Site of the 2008-2012 Prime Minister of the Russian Federation Vladimir Putin: Events. Available at: <a href="http://archive.premier.gov.ru/events/news/">http://archive.premier.gov.ru/events/news/</a>.</p>
+<p class="reference"><strong>Pavlovsky, G.</strong> (2016).&lt;/strong&gt; Russian Politics Under Putin: The System Will Outlast the Master. <i>Foreign Affairs</i>, 95(3), 10–17. Available at: <a href="https://www.foreignaffairs.com/articles/russia-fsu/2016-04-18/russian-politics-under-putin">https://www.foreignaffairs.com/articles/russia-fsu/2016-04-18/russian-politics-under-putin</a>.</p>
+<p class="reference"><strong>Presidential Press Service of the Republic of Belarus.</strong> (2020). Website of the President of Belarus: Archive [Government website]. President of Belarus. Available at: <a href="http://president.gov.by/ru/news_ru/archive/page/">http://president.gov.by/ru/news_ru/archive/page/</a>.</p>
+<p class="reference"><strong>PyData Development Team.</strong> (2019, February 3). Pandas Documentation: Whats New in 0.24.1. Available at: <a href="https://pandas.pydata.org/pandas-docs/stable/whatsnew/v0.24.1.html">https://pandas.pydata.org/pandas-docs/stable/whatsnew/v0.24.1.html</a>.</p>
+<p class="reference"><strong>Reitz, K.</strong> (2019, February 18). Requests-HTML (version 0.10.0). GitHub. Available at: <a href="https://github.com/psf/requests-html">https://github.com/psf/requests-html</a>.</p>
+<p class="reference"><strong>Richardson, L.</strong> (2019, January 7). Beautiful Soup 4.7.1 (HTML parser). Available at: <a href="https://www.crummy.com/software/BeautifulSoup/bs4/download/4.7/">https://www.crummy.com/software/BeautifulSoup/bs4/download/4.7/</a>.</p>
+<p class="reference"><strong>Rudyj, K. V.</strong> (2020). “Nepohožie: Vzglâd na Kitaj i belorussko-kitajskie otnošeniâ” [<i>Dissimilar: A Perspective on China-Belarusian Relations</i>]. Zviazda: Minsk, Belarus. Available at: <a href="https://oz.by/books/more10931323.html">https://oz.by/books/more10931323.html</a>.</p>
+<p class="reference"><strong>Van Rossum, G., &amp; Drake, F. L.</strong> (2018, October 20). Python 3.7.1. Available at: <a href="https://www.python.org/downloads/release/python-371/">https://www.python.org/downloads/release/python-371/</a>.</p>
+
+</article>
+
+
+        <footer class="footer pure-g">
+  <div class="pure-u-1 pure-u-md-1-2">
+    <small>
+      &copy;&nbsp;<time datetime="2021-05-19T18:17:47+01:00">2021</time>&nbsp;<a href="http://www.peterbraga.com/" target="_blank">Peter Braga</a>. All rights reserved.
+    </small>
+  </div>
+
+  <div class="pure-u-1 pure-u-md-1-2">
+    <small>
+      Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> & code grafted from <a href="https://github.com/zivong/jekyll-theme-hydure" target="_blank">Hydure.
+    </small>
+  </div>
+</footer>
+
+      </div>
+    </div>
+
+    
+
+    
+  </body>
+</html>

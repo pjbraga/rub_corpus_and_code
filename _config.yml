@@ -1,0 +1,55 @@
+# Global Configurations
+# | Variable | Type | Default | Specification |
+# | -------- | ---- | ------- | ------------- |
+# | `lang` | String | `en` | The language of pages; The value can be overwritten by the `lang` variable on each page. |
+# | `title` | String | --- | The title of the website |
+# | `tagline` | String | --- | The tagline of the website |
+# | `cover` | String | --- | The URL of the sidebar cover image; The value can be overwritten by the `cover` variable on each page. |
+# | `author.name` | String | --- | The name of the website author |
+# | `author.url` | String | --- | A URL of the website author |
+# | `disqus` | String | --- | Disqus short name |
+# | `google_analytics` | String | --- | Google Analytics 4 Measurement ID |
+# | `tags_path` | String | --- | A path to the archive-by-tags page; It is used by tags on each post |
+# | `categories_path` | String | --- | A path to the archive-by-categories page; It is used by categories on each post |
+
+lang: en
+title: RUB Corpus and Code
+tagline: ""
+cover: /images/crimson.png
+author:
+  name: Peter Braga
+  url: http://www.peterbraga.com/
+disqus: ""
+google_analytics: ""
+tags_path: ""
+categories_path: ""
+email: pjbraga.rubcc@gmail.com
+
+# Non-Theme Related Settings
+baseurl: "" # If your site lives at "example.com/blog", you should have a baseurl of "/blog".
+            #  If your site lives at "example.com", you should not set a baseurl. Not even /.
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: n/a
+github_username: pjbraga
+
+# Original Cover backgroud URL:
+# https://www.macmillandictionary.com/external/slideshow/full/Crimson_full.png
+
+# Build settings
+# markdown: kramdown
+# theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

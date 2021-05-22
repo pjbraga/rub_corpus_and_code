@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="RUB Corpus and Code" />
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>The Code | RUB Corpus and Code</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="The Code" />
+<meta name="author" content="Peter Braga" />
+<meta property="og:locale" content="en" />
+<link rel="canonical" href="http://localhost:4000/code.html" />
+<meta property="og:url" content="http://localhost:4000/code.html" />
+<meta property="og:site_name" content="RUB Corpus and Code" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="The Code" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/code.html","headline":"The Code","author":{"@type":"Person","name":"Peter Braga"},"@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="/assets/css/open-color.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+  
+
+</head>
+
+
+  <body>
+    <div id="layout" class="pure-g">
+      
+      
+      <div class="sidebar pure-u-1 pure-u-md-1-4" style="background-image: url(/images/orange.png);">
+        <header class="header">
+  <a class="brand-title" href="/">RUB Corpus and Code</a>
+  <p class="brand-tagline"></p>
+
+  
+    <nav class="nav pure-menu">
+      <ul class="pure-menu-list">
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/" class="pure-menu-link ">
+            Home
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/news/" class="pure-menu-link ">
+            News
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/corpus/" class="pure-menu-link ">
+            Corpus
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/code/" class="pure-menu-link ">
+            Code
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="/visuals/" class="pure-menu-link ">
+            Data Visualisations
+          </a>
+        </li>
+      
+        <li class="nav-item pure-menu-item">
+          <a href="https://pjbraga.github.io/rub_corpus_and_code/" class="pure-menu-link ">
+            GitHub
+          </a>
+        </li>
+      
+      </ul>
+    </nav>
+  
+
+  
+</header>
+
+      </div>
+      <div class="content pure-u-1 pure-u-md-3-4">
+        <article class="page">
+  <h1 class="page-title">The Code</h1>
+  <p>The RUB Code collection consists of the programs used to (1) assemble the <a href="/corpus/">RUB Corpus</a> and (2) conduct a lexicon-based, sentiment analysis upon the RUB Corpus.</p>
+
+<p>All the Code programs are writtin in <a href="https://docs.python.org/3/">python</a>.</p>
+
+<p>The sentiment analysis was conducted using a modified version of the lexicon created by <a href="https://www.labinform.ru/pub/rusentilex/index.htm">Loukachevitch and Levchik (2016)</a>.</p>
+
+<p>To access the Code, scroll down to the “Code Download” section.</p>
+
+<h3 id="introduction">Introduction</h3>
+<p>This page describes the two different groups of programs (the RUB Code) used to assemble the <a href="/corpus/">RUB Corpus</a> and perform a lexicon-based, sentiment analysis.</p>
+
+<p>The RUB Corpus was gathered using web crawling and scraping programs. Crawling is the repetitive process of accessing a webpage and inspecting its contents. Scraping (also referred to as web-scraping, data mining, web harvesting, and other variations) is the automated gathering of data from the internet (<a href="http://www.myilibrary.com?id=798887">Mitchell, 2015, pp. 31, <em>viii</em></a>).</p>
+
+<p>The sentiment analysis was conducted using a standard three-step pipeline: (1) Data Acquisition; (2) Data Preprocessing; and (3) Categorisation. To carry out the analysis in the Russian language, the author modified the RuSentiLex lexicon created by <a href="https://www.labinform.ru/pub/rusentilex/index.htm">Loukachevitch and Levchik (2017)</a>.</p>
+
+<p>For an introduction to Russian-language sentiment analysis, see the excellent paper by <a href="https://doi.org/10.2478/acss-2018-0006">Vīksna and Jēkabsons (2018)</a>.</p>
+
+<p>The remainder of this page discusses how the RUB Code was written and how it can be used. The “Crawling/Scraping Programs” section explains how the crawling and scraping code was designed. The next “Sentiment Analysis Programs” section describes the series of programs used to perform a Russian-language sentiment analysis.</p>
+
+<p>Contact details and a list of the works cited are at the bottom of the page.</p>
+
+<h3 id="disclaimer">Disclaimer</h3>
+<p>The author of the code learnt how to use the coding languages as he wrote them. Therefore, some of the code is illogically structured and (frankly) poorly written.</p>
+
+<p>This besides, the code gets the job done.</p>
+
+<p>But if you feel it necessary to alert the author of any fatal errors in the programs, please scroll down this page to the “Contact” heading for details on how to get in touch. Please be kind.</p>
+
+<h3 id="code-download">Code Download</h3>
+<p>To use any of the RUB Code scripts, please use the following citation:</p>
+
+<p class="reference"><strong>Braga, P.</strong> (2020). RUB Corpus and Code. Project website. Available at:<a href="https://pjbraga.github.io/rub_corpus_and_code/"> https://pjbraga.github.io/rub_corpus_and_code/</a>.</p>
+
+<p>The various scripts contain multiple notes and comments, which are intended to make the code easier to understand.</p>
+
+<p>All the scripts uploaded here begin with a strandard file header, and then a comment block of four headings, which explain the form and function of the code:</p>
+<ul>
+  <li>Description (a one-to-two sentence explanation of the script)</li>
+  <li>Requirements (necessary prerequisites to run the script)</li>
+  <li>Summary of Code (synopsis of the layout and function of the script)</li>
+  <li>Notes (any peculiarities or potential issues with the code)</li>
+</ul>
+
+<p>For descriptions about how scripts work, please read the information under the “Crawling/Scraping Programs” and “Sentiment Analysis Programs” headings below.</p>
+
+<p>Downloads:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Function</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://pjbraga.github.io/rub_corpus_and_code/_code/Lukashenka.py">Lukashenka.py</a></td>
+      <td>Scraper</td>
+      <td>Scrapes transcripts of speechs, interviews, and offical press releases made by nominal Belarusian President Aleksandr Lukashenka</td>
+    </tr>
+    <tr>
+      <td><a href="https://pjbraga.github.io/rub_corpus_and_code/_code/preprocess_2020.py">preprocess_2020.py</a></td>
+      <td>Preprocessing</td>
+      <td>Prepares Russian-Language sentences for sentiment analysis</td>
+    </tr>
+    <tr>
+      <td><a href="https://pjbraga.github.io/rub_corpus_and_code/_code/Putin_PM.py">Putin_PM.py</a></td>
+      <td>Scraper</td>
+      <td>Scrapes transcripts of speechs, interviews, and offical press releases made by Vladimir Putin when he served as Russian Prime Minister</td>
+    </tr>
+    <tr>
+      <td><a href="https://pjbraga.github.io/rub_corpus_and_code/_code/Putin_President.py">Putin_President.py</a></td>
+      <td>Scraper</td>
+      <td>Scrapes transcripts of speechs, interviews, and offical press releases made by Vladimir Putin when he served as Russian President</td>
+    </tr>
+    <tr>
+      <td><a href="https://pjbraga.github.io/rub_corpus_and_code/_code/rusentilex_2020.txt">rusentilex_2020.txt</a></td>
+      <td>Sentiment Lexicon</td>
+      <td>Russian-language 4-polarity sentiment lexicon</td>
+    </tr>
+    <tr>
+      <td><a href="https://pjbraga.github.io/rub_corpus_and_code/_code/saTagProcessor_2020.py">saTagProcessor_2020.py</a></td>
+      <td>Algorithm</td>
+      <td>After preprocessing, this uses an algorithm to decide the sentiment of lexicon tagged sentences</td>
+    </tr>
+    <tr>
+      <td><a href="https://pjbraga.github.io/rub_corpus_and_code/_code/speech_to_sentence.py">speech_to_sentence.py</a></td>
+      <td>Text Structuring</td>
+      <td>This breaks larger texts into single sentences for structuring data for sentiment analysis</td>
+    </tr>
+    <tr>
+      <td><a href="https://pjbraga.github.io/rub_corpus_and_code/_code/tagProcessor_lib_2020.py">tagProcessor_lib_2020.py</a></td>
+      <td>Function Library</td>
+      <td>a library of functions for processing sentiment tags</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="crawlingscraping-programs">Crawling/Scraping Programs</h3>
+<p>The crawling programs are built with Python 3.7.1 (<a href="https://www.python.org/downloads/release/python-371/">Van Rossum &amp; Drake, 2018</a>), BeautifulSoup 4.7.1 (<a href="https://www.crummy.com/software/BeautifulSoup/bs4/download/4.7/">Richardson, 2019</a>) and other Python third party software (such as Pandas) to crawl webpages and scrape relevant texts (<a href="https://pandas.pydata.org/pandas-docs/stable/whatsnew/v0.24.1.html">PyData Development Team, 2019</a>; <a href="https://github.com/psf/requests-html">Reitz, 2019</a>).</p>
+
+<p>Regular expressions, a notation used to find and identify text (<a href="https://www.oreilly.com/library/view/mastering-regular-expressions/0596528124/">Friedl, 2006, p. 1</a>), are often used to filter webpage contents and increase the accuracy of the scraping programs.</p>
+
+<p>Under each program function, there is (or should be) a short description of its use. In some cases, there are comments explaining the purpose of certain variables, regular expressions, or filters contained within the functions.</p>
+
+<p>The crawling and scraping programs were designed with one guiding prinicple: to gather (as accurately as possible) only the words spoken by the policymaker/s in question.</p>
+
+<p>It should be noted that crawling and scraping programs often need to be tailor-made for each website they access.</p>
+
+<h3 id="sentiment-analysis-programs">Sentiment Analysis Programs</h3>
+<p>After the data is scaped, the second and third steps in the sentiment analysis pipeline can proceed (the first “Data Acqusition” step being the crawling and scraping described above).</p>
+
+<p>The second step is data preprocessing. Preprocessing involves a series of data handling procedures to make a text meaningful for a given sentiment analysis program.</p>
+
+<p>The third step is the categorisation process. Categorisation, also called classification, is the automated process of identifying opinions in text and deciding their sentiment. This is essentially the “analysis” part of sentiment analysis.</p>
+
+<p>These second and third steps are explained in more detail in the “Data Handling (Preprocessing) Tasks” and “Sentiment Analysis Tasks” subsections below.</p>
+
+<h4 id="data-handling-preprocessing-tasks">Data Handling (Preprocessing) Tasks</h4>
+<p>The following subsection describes how the RUB Code prepares the scraped speeches, interviews, and article quotations for analysis.</p>
+
+<p>This project preprocesses collected texts for <i>sentence level</i> analysis. “Level” is the scope at which to conduct sentiment analysis upon a text. Sentence level preprocessing breaks a given text into sentence-sized units.</p>
+
+<p>All text levels of analysis are problematic (<a href="https://www.cambridge.org/gb/academic/subjects/computer-science/artificial-intelligence-and-natural-language-processing/sentiment-analysis-mining-opinions-sentiments-and-emotions-2nd-edition?format=HB">Liu, 2015</a>). Considerations of simplicity, necessity, and accuracy dictate the use of sentence level analysis for this project.</p>
+
+<p>The sentence level (while it is essentially a miniaturised version of a larger text) means the analysed text is not too large to be meaningless, and not too specific to complicate the classification process.</p>
+
+<p>In addition, a sentence level approach suits lexicon-based analysis techniques. Lexicon-based sentiment analysis is reductive to begin with (in contrast to highly sophisticated machine learning techniques) (<a href="https://opendatascience.com/an-introduction-to-sentence-level-sentiment-analysis-with-sentimentr/">Dey, 2018</a>). The aim of this project is to test and demonstrate applicability of Russian-language sentiment analysis in political science research. The development of newer, more sophisticated approaches is for computer scientists. Anything more technical is not required.</p>
+
+<p>Most importantly, analysis of two test datasets built by <a href="http://study.mokoron.com/">Rubtsova (2015)</a> at the sentence level has produced acceptable accuracy results.</p>
+
+<p>Sentiment analysis accuracy is generally calculated using a precision, recall, and F1 score (<a href="https://www.apress.com/gp/book/9781484243534">Sarkar, 2019, pp. 200–204</a>). Precision measures the proportion of correct versus false-positive sentiment predictions. Recall measures the proportion of correct versus false-negative predictions. F1 score is an accuracy measure calculated from the harmonic mean of the two precision and recall measures.</p>
+
+<p>Below are the accuracy test scores produced by the RUB Code. An acceptable F1 score is considered to be around 70 percent (<a href="https://www.aclweb.org/anthology/W18-4516">Schmidt &amp; Burghardt, 2018, p. 146</a>). The F1 scores at the sentence level are 78.699248 percent and 83.9956279 percent for respective positive and negative sentiment test datasets.</p>
+
+<h5 id="rub-code-accuracy-results">RUB Code Accuracy Results</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Test Dataset</th>
+      <th>Precision (%)</th>
+      <th>Recall (%)</th>
+      <th>F1 Score (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Positive Sentiment</td>
+      <td>92.05644</td>
+      <td>68.727094</td>
+      <td>78.699248</td>
+    </tr>
+    <tr>
+      <td>Negative Sentiment</td>
+      <td>85.072902</td>
+      <td>82.9452956</td>
+      <td>83.9956279</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>With the sentence level provided, the core preprocessing jobs can begin. Six preprocessing techniques are used in the RUB Code: structuring, cleaning, text replacement, autospellchecking, tokenisation, and lemmatisation.</p>
+
+<p>Structuring refers to how the data is organised for analysis. The RUB Code tracks opinion changes over time. Thus, the data is structured for longitudinal analysis: it is arranged according to the date a speech was made or a policymaker was quoted.</p>
+
+<p>Cleaning (also referred to as “scrubbing”) removes all non-sentiment-bearing elements from a sentence. Non-sentiment bearing elements include punctuation and “stop-words,” which are words that contain no sentiment, such as “when,” “this,” “that,” “after,” and so on.</p>
+
+<p>The RUB Code includes text replacement. This substitutes emoticons (text representations of facial expressions, such as “:-)” and “:-(” communicating emotion), certain slang words, and other informal sentiment-bearing expressions (such as “hooray” and “boo”) with a simple equivalent word, such as “good” or “bad.”</p>
+
+<p>Next, the sentences are spell-checked. The RUB Code runs a simple Russian language automatic spellchecker using the Yandex Speller API (<a href="http://yandex.ru/dev/speller/doc/dg/concepts/About-docpage/">Seleznev, 2015</a>).</p>
+
+<p>The RUB Code then performs tokenisation. Tokenisation breaks a sentence into units that are easier for a lexicon to analyse. Individual words are called tokens, and collections of words are referred to as “n-grams” (referring to a contiguous sequence of n items in a series).</p>
+
+<p>The final preprocessing task is lemmatisation. Each token is reduced to its linguistic root. For example, “walking” becomes “walk,” and “better” becomes “good,” and so on. To perform this complex function, this study employs the pymystem3 lemmatisation package (<a href="https://github.com/nlpub/pymystem3">Sukhonin, 2018</a>), which is (again) based on software developed at Yandex (<a href="https://dblp.uni-trier.de/db/conf/mlmta/mlmta2003.html">Segalovich, 2003</a>).</p>
+
+<p>At this point, texts are ready for sentiment analysis.</p>
+
+<h4 id="sentiment-analysis-tasks">Sentiment Analysis Tasks</h4>
+<p>The RUB Code sentiment analysis is a function of two parts: the RuSentiLex Lexicon (a dictionary of sentiment bearing words and their corresponding sentiments) and an algorithm (a series of mathematical rules to decide the sentiment for each sentence processed).</p>
+
+<p>This is essentially what the process looks like:
+<img src="/images/SA_Chapter_F1.png" width="400" class="align-center" /></p>
+
+<p>The “Collected Texts” are assembled by the crawler/scrapers (discussed in the “Crawling/Scraping Programs” section above). The “Input” and “Tokeniser” stages equate to the preprocessing steps descibed in “Data Handling (Preprocessing) Tasks” directly above. The “Dictionary” (lexicon) and “Match” (algorithm) stages decide the sentiment of sentences. The result (in the case of RuSentiLex) “scores” one of four possible sentiments: positive, negative, neutral, or ambiguous. Sentences that cannot be matched are “ignored.”</p>
+
+<p>The RuSentiLex lexicon has four different sentiment categories (also called polarities, orientations, or valencies): positive, negative, neutral, and ambiguous. Positive sentiment expresses optimism or confidence about something. Negative sentiment means something is not desirable or not optimistic. Neutral is the absence of sentiment or no sentiment. Finally, ambiguous sentiment means it is not possible to choose between a positive, negative, or neutral sentiment without further context.</p>
+
+<p>The RUB Code uses a modified RuSentiLex lexicon. RuSentiLex was originally designed to test if a word or phrase with multiple connotations was used to express a fact, opinion, or personal feeling (<a href="http://www.lrec-conf.org/proceedings/lrec2016/pdf/285_Paper.pdf">Loukachevitch &amp; Levchik, 2016, pp. 1172–1173</a>). The author of the RUB Code was unable to harness this feature. Therefore, this inaccessible element is removed from the lexicon used here.</p>
+
+<p>The modified version still contains sentiment orientations for all the “more than 12 thousand words and phrases,” which are the core of the RuSentiLex dictionary (<a href="https://www.labinform.ru/pub/rusentilex/index.htm">Loukachevitch &amp; Levchik, 2017</a>).</p>
+
+<p>After RuSentiLex to determine the sentiment of tokens, a simple algorithm decides the sentiment for the sentence.</p>
+
+<p>The RUB Code algorithm functions in two stages. The gives an average of sentiments in the sentence. The highest average sentiment (positive, negative, neutral, or ambiguous) determines the sentiment of the sentence.</p>
+
+<p>Take an example. A sentence is found to have 5 positive, 1 negative, 3 neutral, and 2 ambiguous words or n-grams. This translates to 50 percent positive, 10 percent, negative, 30 percent neutral, and 20 percent ambiguous. Therefore, the first stage of the algorithm would rule the sentence to have positive sentiment.</p>
+
+<p>The aim is that only sentences clearly displaying a particular sentiment are labelled as such.</p>
+
+<p>A second stage of algorithmic rules is triggered if sentiment is less clear. If positive sentiment is equal to negative sentiment in a sentence, the sentence is labelled as “ambiguous” in sentiment. And if all sentiments are equal in the sentence, this also understood as “ambiguous.” If positive sentiment is equal to ambiguous or neutral sentiment, the sentence is labelled as “positive.” Vice versa with negative sentiment. Finally, if the sentence has no discernible sentiment, it is labelled“not classifiable” and ignored.</p>
+
+<p>The RUB Code sentiment analysis is crude. But the algorithm has proven effective at identifying positive or negative sentiment sentences in Rubtsova’s large test datasets.</p>
+
+<p>The following image is a confusion matrix, which provides more detail on the accuracy of the RUB Code’s sentiment anlaysis:
+<img src="/images/confusion_matrix.png" width="800" class="align-center" /></p>
+
+<p>The far left-side of the matrix shows the number of sentences in the positive and negative test datasets. “Actual Positive Sentiment Sentences from Test Dataset” indicates there are 97,682 positive sentences. “Actual Negative Sentiment Sentences from Test Dataset” points to 94,965 negative sentences. At the top of the matrix, “Predicted Sentiment Using RuSentiLex with Emoticons” shows the total number of sentences coded by the RUB Code. Each RuSentiLex sentiment has its own cell heading. The RUB Code categorised 72,927 as positive, 92,590 as negative, 5,459 as neutral, and 21,671 as ambiguous for both test datasets. The interior of the confusion matrix (identifiable by the thick, black border surrounding it) separates categorisation results for the two different test datasets. The boxes coloured light-grey indicate accurate classifications (the number of sentences given the correct sentiment). Because there are only a positive sentiment and a negative sentiment test dataset, there are only two light-grey boxes. The uncoloured, white boxes tally the SA program’s errors: the false positives and false negatives.</p>
+
+<p>Of the 72,927 predicted by the RUB Code to have positive sentiment, in fact 67,134 sentences were accurately predicted and 5,793 were false-positives. Of the 92,590 sentences predicted to be negative sentiment-bearing, 78,769 were correct predictions while 13,821 sentences were incorrectly coded (false-positives). Because none of the test datasets had neutral or ambiguous sentiment sentences, all these sentiment predictions are false-negatives. For the positive sentiment test dataset, the false-negatives include 13,821 negative sentiment, 3,487 neutral sentiment, and 13,240 ambiguous sentiment.</p>
+
+<p>Unfortunately, there are no open source, Russian-language datasets to test neutral or ambiguous sentiment. Therefore, the RUB Code’s ability to predict sentiments has not been tested.</p>
+
+<p>While this is a limitation, the RUB Code is still fit-for-purpose to track policymaker sentiment. The code can adequately discern between positive and negative sentiment (with F1 scores of 78 and 83 percent respectively). This handles the fundamental task of deciding whether policymakers are for or against an issue. Ambiguity and neutrality are, arguably, less important to when trying to discover policymaker positions.</p>
+
+<h3 id="contact">Contact</h3>
+<p>For issues with the RUB Corpus and Code repositories, please use <a href="https://pjbraga.github.io/rub_corpus_and_code/">GitHub</a>.</p>
+
+<p>For general questions about this project or any ideas for academic collaboration, feel free to contact Peter Braga at: pjbraga.rubcc@gmail.com.</p>
+
+<h3 id="page-references">Page References</h3>
+<p class="reference"><strong>Dey, B.</strong> (2018, October 18). An Introduction to Sentence-Level Sentiment Analysis with sentimentr. Open Data Science Conference. Available at: <a href="https://opendatascience.com/an-introduction-to-sentence-level-sentiment-analysis-with-sentimentr/">https://opendatascience.com/an-introduction-to-sentence-level-sentiment-analysis-with-sentimentr/</a>.</p>
+<p class="reference"><strong>Friedl, J. E. F.</strong> (2006). Mastering regular expressions (3rd ed). O’Reilly. Available at: <a href="https://www.oreilly.com/library/view/mastering-regular-expressions/0596528124/">https://www.oreilly.com/library/view/mastering-regular-expressions/0596528124/</a>.</p>
+<p class="reference"><strong>Liu, B.</strong> (2015). Sentiment analysis: Mining opinions, sentiments, and emotions. Cambridge University Press.
+<p class="reference"><strong>Loukachevitch, N., &amp; Levchik, A.</strong> (2017). Russian Sentiment Lexicon RuSentiLex [Open Source Repository]. Labinform.ru. Available at: <a href="https://www.labinform.ru/pub/rusentilex/index.htm">https://www.labinform.ru/pub/rusentilex/index.htm</a>.</p>
+<p class="reference"><strong>Loukachevitch, N., &amp; Levchik, A.</strong> (2016). Creating a General Russian Sentiment Lexicon. Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC’16), 1171–1176. Available at: <a href="https://www.aclweb.org/anthology/volumes/L16-1/">https://www.aclweb.org/anthology/volumes/L16-1/</a>.</p>
+<p class="reference"><strong>Mitchell, R.</strong> (2015). Web scraping with Python: Collecting data from the modern web. Available at: <a href="http://www.myilibrary.com?id=798887">http://www.myilibrary.com?id=798887</a>.</p>
+<p class="reference"><strong>PyData Development Team.</strong> (2019, February 3). Pandas Documentation: Whats New in 0.24.1. Available at: <a href="https://pandas.pydata.org/pandas-docs/stable/whatsnew/v0.24.1.html">https://pandas.pydata.org/pandas-docs/stable/whatsnew/v0.24.1.html</a>.</p>
+<p class="reference"><strong>Reitz, K.</strong> (2019, February 18). Requests-HTML (version 0.10.0). GitHub. Available at: <a href="https://github.com/psf/requests-html">https://github.com/psf/requests-html</a>.</p>
+<p class="reference"><strong>Richardson, L.</strong> (2019, January 7). Beautiful Soup 4.7.1 (HTML parser). Available at: <a href="https://www.crummy.com/software/BeautifulSoup/bs4/download/4.7/">https://www.crummy.com/software/BeautifulSoup/bs4/download/4.7/</a>.</p>
+<p class="reference"><strong>Rubtsova, Y.</strong> (2015). Constructing a corpus for sentiment classification training. Software &amp; Systems, 27, 72–78. Available at: <a href="https://doi.org/10.15827/0236-235X.109.072-078">https://doi.org/10.15827/0236-235X.109.072-078</a>.</p>
+<p class="reference"><strong>Sarkar, D.</strong> (2019). Text Analytics with Python: A practical real-world approach to gaining actionable insights from your data. APRESS.
+<p class="reference"><strong>Schmidt, T., &amp; Burghardt, M.</strong> (2018). An Evaluation of Lexicon-based Sentiment Analysis Techniques for the Plays of Gotthold Ephraim Lessing. Proceedings of the Second Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature, 139–149. Available at: <a href="https://www.aclweb.org/anthology/W18-4516">https://www.aclweb.org/anthology/W18-4516</a>.</p>
+<p class="reference"><strong>Segalovich, I.</strong> (2003). A Fast Morphological Algorithm with Unknown Word Guessing Induced by a Dictionary for a Web Search Engine. MLMTA, 273–280. Available at: <a href="https://dblp.uni-trier.de/db/conf/mlmta/mlmta2003.html">https://dblp.uni-trier.de/db/conf/mlmta/mlmta2003.html</a>.</p>
+<p class="reference"><strong>Seleznev, D.</strong> (2015). Yandex Speller: Documentation Page. Available at: <a href="http://yandex.ru/dev/speller/doc/dg/concepts/About-docpage/">http://yandex.ru/dev/speller/doc/dg/concepts/About-docpage/</a>.</p>
+<p class="reference"><strong>Sukhonin, D.</strong> (2018). pymystem3: Python wrapper for the Yandex MyStem 3.1 morpholocial analyzer of the Russian language. (0.2.0) [Python; OS Independent]. Available at: <a href="https://github.com/nlpub/pymystem3">https://github.com/nlpub/pymystem3</a>.</p>
+<p class="reference"><strong>Van Rossum, G., &amp; Drake, F. L.</strong> (2018, October 20). Python 3.7.1. Available at: <a href="https://www.python.org/downloads/release/python-371/">https://www.python.org/downloads/release/python-371/</a>.</p>
+<p class="reference"><strong>Vīksna, R., &amp; Jēkabsons, G.</strong> (2018). Sentiment Analysis in Latvian and Russian: A Survey. Applied Computer Systems, 23(1), 45–51. Available at: <a href="https://doi.org/10.2478/acss-2018-0006">https://doi.org/10.2478/acss-2018-0006</a>.</p>
+
+</p></p>
+
+</article>
+
+
+        <footer class="footer pure-g">
+  <div class="pure-u-1 pure-u-md-1-2">
+    <small>
+      &copy;&nbsp;<time datetime="2021-05-19T18:17:47+01:00">2021</time>&nbsp;<a href="http://www.peterbraga.com/" target="_blank">Peter Braga</a>. All rights reserved.
+    </small>
+  </div>
+
+  <div class="pure-u-1 pure-u-md-1-2">
+    <small>
+      Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> & code grafted from <a href="https://github.com/zivong/jekyll-theme-hydure" target="_blank">Hydure.
+    </small>
+  </div>
+</footer>
+
+      </div>
+    </div>
+
+    
+
+    
+  </body>
+</html>
