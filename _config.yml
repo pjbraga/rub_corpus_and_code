@@ -26,7 +26,7 @@ categories_path: ""
 email: pjbraga.rubcc@gmail.com
 
 # Non-Theme Related Settings
-baseurl: "" # If your site lives at "example.com/blog", you should have a baseurl of "/blog".
+baseurl: "/rub_corpus_and_code" # If your site lives at "example.com/blog", you should have a baseurl of "/blog".
             #  If your site lives at "example.com", you should not set a baseurl. Not even /.
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: n/a
