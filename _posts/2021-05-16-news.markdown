@@ -5,7 +5,7 @@ date:   2021-05-16 13:18:58 +0100
 categories: news
 cover: /images/teal.png
 ---
-The RUB Corpus and Code [GitHub repository]() has now been updated to host the corpus and code files. 
+The RUB Corpus and Code [GitHub repository](https://github.com/pjbraga/rub_corpus_and_code) has now been updated to host the corpus and code files. 
 
 Please find them at [https://github.com/pjbraga/rub_corpus_and_code/tree/main/_corpus](https://github.com/pjbraga/rub_corpus_and_code/tree/main/_corpus) and [https://github.com/pjbraga/rub_corpus_and_code/tree/main/_code](https://github.com/pjbraga/rub_corpus_and_code/tree/main/_code).
 
