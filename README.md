@@ -2,17 +2,17 @@
 
 ### Russian-Language Corpus & Lexicon-Based Sentiment Analysis
 
-![Corpus Organisation](/site/images/corpus_org.png)
+![Corpus Organisation](/rub_corpus_and_code/images/corpus_org.png)
 
-![The Code](/site/images/code_example.png)
+![The Code](/rub_corpus_and_code/images/code_example.png)
 
 RUB Corpus and Code are two downloadable, open-source collections. 
 
-The [RUB Corpus](/site/corpus/) is a collection of Russian-language official government speeches, interviews, and press releases made by top policymakers in Russia, Ukraine, and Belarus from 2006 to 2016.
+The [RUB Corpus](/rub_corpus_and_code/corpus/) is a collection of Russian-language official government speeches, interviews, and press releases made by top policymakers in Russia, Ukraine, and Belarus from 2006 to 2016.
 
 The first image at the top of this README is a screenshot of the corpus collection for Belarus.
 
-The [Code](/site/code/) represents the programs used to compile the RUB Corpus and to conduct a lexicon-based sentiment analysis upon the RUB Corpus.
+The [Code](/rub_corpus_and_code/code/) represents the programs used to compile the RUB Corpus and to conduct a lexicon-based sentiment analysis upon the RUB Corpus.
 
 The second image above is a screenshot of a lemmatisation function, which is part of the sentiment analysis Code.
 
@@ -21,7 +21,7 @@ The sentiment analysis was conducted using a modified version of the lexicon cre
 # Usage
 To use any of the RUB Code scripts, please use the following citation:
 
-<strong>Braga, P.</strong> (2020). RUB Corpus and Code. Project repository. Available at:<a href="https://github.com/pjbraga/pjbraga.github.io"> https://github.com/pjbraga/pjbraga.github.io</a>. 
+<strong>Braga, P.</strong> (2020). RUB Corpus and Code. Project repository. Available at:<a href="https://github.com/pjbraga/rub_corpus_and_code"> https://github.com/pjbraga/rub_corpus_and_code</a>. 
 
 ### The RUB Corpus Files
 The RUB Corpus and Code can be used in several ways. 
@@ -38,7 +38,7 @@ The sources for the RUB Corpus texts are online, official government archives. T
 ### The Code (Sentiment Analysis) Files
 The Code is a series of programs used to: 
 
-(1) assemble the [RUB Corpus](/site/corpus/) and; 
+(1) assemble the [RUB Corpus](/rub_corpus_and_code/site/corpus/) and; 
 (2) conduct a Russian-language, lexicon-based, sentiment analysis upon the RUB Corpus. 
 
 All the Code scripts are writtin in [python](https://docs.python.org/3/).
@@ -56,7 +56,7 @@ All the scripts uploaded here begin with a strandard file header, and then a com
 - Notes (any peculiarities or potential issues with the code)
 
 # Reporting Issues
-For any issues with the RUB Corpus and Code repositories, please use <a href="https://github.com/pjbraga/pjbraga.github.io">GitHub</a>. 
+For any issues with the RUB Corpus and Code repositories, please use <a href="https://github.com/pjbraga/rub_corpus_and_code">GitHub</a>. 
 
 # Contact
 For general questions about this project or any ideas for academic collaboration, contact Peter Braga at: pjbraga.rubcc@gmail.com.

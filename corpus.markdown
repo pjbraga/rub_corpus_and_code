@@ -1,8 +1,8 @@
 ---
 layout: page
 title: RUB Corpus
-cover: /images/blue.png
-permalink: /corpus/
+cover: /rub_corpus_and_code/images/blue.png
+permalink: /rub_corpus_and_code/corpus/
 ---
 The RUB Corpus is a collection of Russian-language official government speeches, interviews, and press releases made by top policymakers in Russia, Ukraine, and Belarus from 2006 to 2016.
 
@@ -22,11 +22,11 @@ The texts were gathered as part of a PhD dissertation to trace how policymakers�
 
 Tracking what top policymakers say relates to the strong influence leaders and key officials have on policy development in nondemocratic regimes ([Ambrosio, 2017, pp. 203–204](https://doi.org/10.1080/21599165.2017.1304382); [Pavlovsky, 2016, pp. 10–16](https://www.foreignaffairs.com/articles/russia-fsu/2016-04-18/russian-politics-under-putin); [Rudyj, 2020, p. 198](https://oz.by/books/more10931323.html)).
 
-The corpus can be used, for example, to analyse the sentiments (positive, negative, neutral, or ambiguous) of Russian-speaking, top policymakers on issues such as NATO, [democracy](/visuals/), [bilateral relations](/visuals/), and so on. 
+The corpus can be used, for example, to analyse the sentiments (positive, negative, neutral, or ambiguous) of Russian-speaking, top policymakers on issues such as NATO, [democracy](/rub_corpus_and_code/visuals/), [bilateral relations](/rub_corpus_and_code/visuals/), and so on. 
 
-The code used to carry out this sentiment analysis can be found on the [Code page](/code/).
+The code used to carry out this sentiment analysis can be found on the [Code page](/rub_corpus_and_code/code/).
 
-For examples of how the corpus and code can be used, see the [Data Visualisations page](/visuals/).
+For examples of how the corpus and code can be used, see the [Data Visualisations page](/rub_corpus_and_code/visuals/).
 
 ### The Collections
 The texts were gathered using Python 3.7.1 ([Van Rossum & Drake, 2018](https://www.python.org/downloads/release/python-371/)), BeautifulSoup 4.7.1 ([Richardson, 2019](https://www.crummy.com/software/BeautifulSoup/bs4/download/4.7/)) and other Python third party software (such as Pandas) to crawl webpages and scrape the relevant texts ([PyData Development Team, 2019](https://pandas.pydata.org/pandas-docs/stable/whatsnew/v0.24.1.html); [Reitz, 2019](https://github.com/psf/requests-html)).
@@ -43,12 +43,12 @@ The texts were gathered using Python 3.7.1 ([Van Rossum & Drake, 2018](https://w
 ### Corpus Download
 To use any of the corpus collections, please use the following citation:
 
-<p class=reference><strong>Braga, P.</strong> (2020). RUB Corpus and Code. Project repository. Available at:<a href="https://github.com/pjbraga/pjbraga.github.io"> https://github.com/pjbraga/pjbraga.github.io</a>.</p>
+<p class=reference><strong>Braga, P.</strong> (2020). RUB Corpus and Code. Project repository. Available at:<a href="https://github.com/pjbraga/rub_corpus_and_code"> https://github.com/pjbraga/rub_corpus_and_code</a>.</p>
 
 The RUB Corpus collections are currently available as zip files in .tsv format:
 
 | ![Russia](/images/database_image.png) | ![Ukraine](/images/database_image.png) | ![Belarus](/images/database_image.png) |
-| <a href="https://github.com/pjbraga/pjbraga.github.io/raw/main/_corpus/russia_all_texts.tsv.zip">Russia</a> | <a href="https://github.com/pjbraga/pjbraga.github.io/raw/main/_corpus/ukraine_all_texts.tsv.zip">Ukraine</a> | <a href="https://github.com/pjbraga/pjbraga.github.io/raw/main/_corpus/belarus_all_texts.tsv.zip">Belarus</a> |
+| <a href="https://github.com/pjbraga/rub_corpus_and_code/raw/main/_corpus/russia_all_texts.tsv.zip">Russia</a> | <a href="https://github.com/pjbraga/rub_corpus_and_code/raw/main/_corpus/ukraine_all_texts.tsv.zip">Ukraine</a> | <a href="https://github.com/pjbraga/rub_corpus_and_code/raw/main/_corpus/belarus_all_texts.tsv.zip">Belarus</a> |
 | Russian policymakers (Presidents/Prime Ministers Vladimir Putin and Dmitry Medvedev, and Minister of Foreign Affairs Sergei Lavrov) collection, 2006–2016 | Ukrainian policymakers (Presidents Viktor Yushchenko, Viktor Yanukovych, Oleksandr Turchynov, and Petro Poroshenko. Prime Ministers Yuri Yekhanurov, Viktor Yanukovych, Yulia Tymoshenko, Oleksandr Yurchynov, Mykola Azarov, Sergei Arbuzov, Arseniy Yatsenyuk, and Volodymyr Groysman) collection, 2006–2016 |  Belarusian policymaker (President Aleksander Lukashenka) collection, 2006–2016 |
 
 ### Corpus Organisation
@@ -57,10 +57,10 @@ Corpus texts are arranged in .tsv files.
 The first column gives a text's publication date, the second column has corresponding href for the text, and the third column contains the text. 
 
 For example:
-![Corpus Organisation](/images/corpus_org.png)
+![Corpus Organisation](/rub_corpus_and_code/images/corpus_org.png)
 
 ### Questions or Issues
-For issues with the RUB Corpus and Code repositories, please use <a href="https://github.com/pjbraga/pjbraga.github.io">GitHub</a>. 
+For issues with the RUB Corpus and Code repositories, please use <a href="https://github.com/pjbraga/rub_corpus_and_code">GitHub</a>. 
 
 For general questions about this project or any ideas for academic collaboration, contact Peter Braga at: pjbraga.rubcc@gmail.com.
 

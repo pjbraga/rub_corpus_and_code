@@ -1,12 +1,12 @@
 - title: Home
-  url: /
+  url: /rub_corpus_and_code/
 - title: Corpus
-  url: /corpus/
+  url: /rub_corpus_and_code/corpus/
 - title: Code
-  url: /code/
+  url: /rub_corpus_and_code/code/
 - title: Data Visualisations
-  url: /visuals/
+  url: /rub_corpus_and_code/visuals/
 - title: News
-  url: /news/
+  url: /rub_corpus_and_code/news/
 - title: GitHub
-  url: https://github.com/pjbraga/pjbraga.github.io
+  url: https://github.com/pjbraga/rub_corpus_and_code

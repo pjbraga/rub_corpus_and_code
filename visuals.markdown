@@ -1,16 +1,16 @@
 ---
 layout: page
 title: Data Visualisations
-cover: /images/grey.png
-permalink: /visuals/
+cover: /rub_corpus_and_code/images/grey.png
+permalink: /rub_corpus_and_code/visuals/
 ---
 
-This page showcases some of sentiment analysis results produced by the [RUB Corpus](/corpus/) and [Code](/code/).
+This page showcases some of sentiment analysis results produced by the [RUB Corpus](/rub_corpus_and_code/corpus/) and [Code](/rub_corpus_and_code/code/).
 
 ### Introduction
 The following is some general information about the RUB Corpus and Code.
 
-The [RUB Corpus](/corpus/) is a collection of 71,515 Russian language texts published between 01 January 2006 to 31 December 2016.
+The [RUB Corpus](/rub_corpus_and_code/corpus/) is a collection of 71,515 Russian language texts published between 01 January 2006 to 31 December 2016.
 
 RUB is an acronym of the countries where the texts originated from: Russia, Ukraine, and Belarus. 
 
@@ -20,16 +20,16 @@ The sources for these texts are online, official government archives.
 
 The texts were gathered as part of a PhD dissertation analysing policymakers’ sentiments concerning bilateral relationships (Russian policymakers' opinion towards China, for example) over time.
 
-The [RUB Code](/code/) was used to carry out this sentiment analysis of Russian, Ukrainian, and Belarusian policymakers' official texts.
+The [RUB Code](/rub_corpus_and_code/code/) was used to carry out this sentiment analysis of Russian, Ukrainian, and Belarusian policymakers' official texts.
 
-The RUB Corpus and Code can be downloaded from the [Corpus page](/corpus/) and [Code page](/code/). 
+The RUB Corpus and Code can be downloaded from the [Corpus page](/rub_corpus_and_code/corpus/) and [Code page](/rub_corpus_and_code/code/). 
 
 ### RUB Sentiment Analysis
 These are some of the sentiment analysis results visualised using R software ([R Core Team 2020](https://www.r-project.org/)).
 
 This is Ukrainian top policymakers’ (Prime Ministers and Presidents) sentiment towards Russia from 2006 to 2016:
 
-![Ukraine_to_Russia](/images/eda_trend_test_ukr_rus_3.png)
+![Ukraine_to_Russia](/rub_corpus_and_code/images/eda_trend_test_ukr_rus_3.png)
 
 The x-axis, labelled “Quarters 2006–2016,” presents the analysed corpuse data (from 2006 to 2016) in quarters. A four character tag indicates the year and first quarter. The characters “06Q1,” for example, denotes the first quarter (January, February, March) of 2006. The dashes following this first quarter tag represent a year's three remaining quarters (April to June, July to September, October to December).
 
@@ -57,7 +57,7 @@ Finally, the explosions of negative sentiment during and after Q1 2014 illustrat
 ### Russian Policymakers Discussing the EU
 This next visualisation tracks Russian top policymakers’ (Prime Ministers, Presidents, and Foreign Minister) sentiment towards the European Union (EU) from 2006 to 2016:
 
-![Russia_to_EU](/images/eda_trend_test_rus_eu_1.png)
+![Russia_to_EU](/rub_corpus_and_code/images/eda_trend_test_rus_eu_1.png)
 
 The graph features, line colours and patterns, and legend represent the same information as the first image in the “RUB Sentiment Analysis” section.
 
@@ -72,7 +72,7 @@ Another use for sentiment analysis is to compare policymakers’ opinion on vari
 
 For example, this next image is tracks Russian policymakers’ sentiment towards democracy from 2006 to 2016:
 
-![Russia_Democracy](/images/said_democracy_pos_tl.png)
+![Russia_Democracy](/rub_corpus_and_code/images/said_democracy_pos_tl.png)
 
 Once more, the graph features and legend represent the same information as the first image in the “RUB Sentiment Analysis” section.
 
@@ -96,7 +96,7 @@ In addition, the approach used for the RUB Corpus and Code could be refined to t
 Feel free to contact the author of this project for suggestions of how else to expand and improve this work. 
 
 ### Contact
-For issues with the RUB Corpus and Code repositories, please use <a href="https://github.com/pjbraga/pjbraga.github.io">GitHub</a>. 
+For issues with the RUB Corpus and Code repositories, please use <a href="https://github.com/pjbraga/rub_corpus_and_code">GitHub</a>. 
 
 For general questions about this project or to share any ideas for academic collaboration, feel free to contact Peter Braga at: pjbraga.rubcc@gmail.com.
 

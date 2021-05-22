@@ -3,9 +3,9 @@ layout: post
 title:  "RUB Corpus and Code Website Online"
 date:   2021-05-14 17:34:41 +0100
 categories: news
-cover: /images/teal.png
+cover: /rub_corpus_and_code/images/teal.png
 ---
-The RUB (Russia, Ukraine, Belarus) corpus and code website is now online at [https://pjbraga.github.io/](https://pjbraga.github.io/).
+The RUB (Russia, Ukraine, Belarus) corpus and code website is now online at [https://pjbraga.github.io/rub_corpus_and_code/](https://pjbraga.github.io/rub_corpus_and_code/).
 
 The site is still under construction. Alterations to site structure and page compositions are likely. 
 

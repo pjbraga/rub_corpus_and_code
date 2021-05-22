@@ -4,9 +4,9 @@
 
   <body>
     <div id="layout" class="pure-g">
-      {% assign cover = site.cover | default: "https://www.macmillandictionary.com/external/slideshow/full/Crimson_full.png" %}
+      {% assign cover = site.cover | default: "https://github.com/pjbraga/rub_corpus_and_code/raw/main/images/crimson.png" %}
       {% if page.cover %}
-        {% assign cover = page.cover | default: "https://www.macmillandictionary.com/external/slideshow/full/Crimson_full.png" %}
+        {% assign cover = page.cover | default: "https://github.com/pjbraga/rub_corpus_and_code/raw/main/images/crimson.png" %}
       {% endif %}
       <div class="sidebar pure-u-1 pure-u-md-1-4" {% if cover %}style="background-image: url({{ cover | relative_url }});"{% endif %}>
         {% include header.html %}

@@ -1,10 +1,10 @@
 ---
 layout: page
 title: The Code
-cover: /images/orange.png
-permalink: /code/
+cover: /rub_corpus_and_code/images/orange.png
+permalink: /rub_corpus_and_code/code/
 ---
-The RUB Code collection is a series of programs used to (1) assemble the [RUB Corpus](/corpus/) and (2) conduct a Russian-language, lexicon-based, sentiment analysis upon the RUB Corpus. 
+The RUB Code collection is a series of programs used to (1) assemble the [RUB Corpus](/rub_corpus_and_code/corpus/) and (2) conduct a Russian-language, lexicon-based, sentiment analysis upon the RUB Corpus. 
 
 All the Code programs are writtin in [python](https://docs.python.org/3/). 
 
@@ -13,9 +13,9 @@ The sentiment analysis uses a modified version of the lexicon created by [Loukac
 To access the Code, scroll down to the “Code Download” section.
 
 ### Introduction
-This page describes two different groups of programs, which make up the [RUB Code](/code/). 
+This page describes two different groups of programs, which make up the [RUB Code](/rub_corpus_and_code/code/). 
 
-The RUB code was used to assemble the [RUB Corpus](/corpus/) and perform a lexicon-based, sentiment analysis.
+The RUB code was used to assemble the [RUB Corpus](/rub_corpus_and_code/corpus/) and perform a lexicon-based, sentiment analysis.
 
 The RUB Corpus was gathered using web crawling and scraping programs. Crawling is the repetitive process of accessing a webpage and inspecting its contents. Scraping is the automated gathering of data from the internet ([Mitchell, 2015, pp. 31, *viii*](http://www.myilibrary.com?id=798887)). 
 
@@ -39,7 +39,7 @@ If you feel compelled to alert the author of any fatal errors in the RUB Code, p
 ### Code Download
 To use any of the RUB Code scripts, please use the following citation:
 
-<p class=reference><strong>Braga, P.</strong> (2020). RUB Corpus and Code. Project repository. Available at:<a href="https://github.com/pjbraga/pjbraga.github.io"> https://github.com/pjbraga/pjbraga.github.io</a>.</p> 
+<p class=reference><strong>Braga, P.</strong> (2020). RUB Corpus and Code. Project repository. Available at:<a href="https://github.com/pjbraga/rub_corpus_and_code"> https://github.com/pjbraga/rub_corpus_and_code</a>.</p> 
 
 The various scripts contain multiple notes and comments, which are intended to make the code easier to understand.
 
@@ -55,14 +55,14 @@ Downloads:
 
 | Code | Function | Description |
 | ----------- | ----------- | ----------- |
-| <a href="https://github.com/pjbraga/pjbraga.github.io/raw/main/_code/Lukashenka.py">Lukashenka.py</a> | Scraper | Scrapes transcripts of speechs, interviews, and offical press releases made by nominal Belarusian President Aleksandr Lukashenka |
-| <a href="https://github.com/pjbraga/pjbraga.github.io/raw/main/_code/preprocess_2020.py">preprocess_2020.py</a> | Preprocessing | Prepares Russian-Language sentences for sentiment analysis |
-| <a href="https://github.com/pjbraga/pjbraga.github.io/raw/main/_code/Putin_PM.py">Putin_PM.py</a> | Scraper | Scrapes transcripts of speechs, interviews, and offical press releases made by Vladimir Putin when he served as Russian Prime Minister |
-| <a href="https://github.com/pjbraga/pjbraga.github.io/raw/main/_code/Putin_President.py">Putin_President.py</a> | Scraper | Scrapes transcripts of speechs, interviews, and offical press releases made by Vladimir Putin when he served as Russian President |
-| <a href="https://github.com/pjbraga/pjbraga.github.io/raw/main/_code/rusentilex_2020.txt">rusentilex_2020.txt</a> | Sentiment Lexicon | Russian-language, 4-polarity sentiment lexicon |
-| <a href="https://github.com/pjbraga/pjbraga.github.io/raw/main/_code/saTagProcessor_2020.py">saTagProcessor_2020.py</a> | Algorithm | After preprocessing, this uses an algorithm to calculate the sentiment of lexicon tagged sentences |
-| <a href="https://github.com/pjbraga/pjbraga.github.io/raw/main/_code/speech_to_sentence.py">speech_to_sentence.py</a> | Text Structuring | Finds sentences with key words, extracts them from the text, and outputs to a spreadsheet |
-| <a href="https://github.com/pjbraga/pjbraga.github.io/raw/main/_code/tagProcessor_lib_2020.py">tagProcessor_lib_2020.py</a> | Function Library | a library of functions for processing sentiment tags |
+| <a href="https://github.com/pjbraga/rub_corpus_and_code/raw/main/_code/Lukashenka.py">Lukashenka.py</a> | Scraper | Scrapes transcripts of speechs, interviews, and offical press releases made by nominal Belarusian President Aleksandr Lukashenka |
+| <a href="https://github.com/pjbraga/rub_corpus_and_code/raw/main/_code/preprocess_2020.py">preprocess_2020.py</a> | Preprocessing | Prepares Russian-Language sentences for sentiment analysis |
+| <a href="https://github.com/pjbraga/rub_corpus_and_code/raw/main/_code/Putin_PM.py">Putin_PM.py</a> | Scraper | Scrapes transcripts of speechs, interviews, and offical press releases made by Vladimir Putin when he served as Russian Prime Minister |
+| <a href="https://github.com/pjbraga/rub_corpus_and_code/raw/main/_code/Putin_President.py">Putin_President.py</a> | Scraper | Scrapes transcripts of speechs, interviews, and offical press releases made by Vladimir Putin when he served as Russian President |
+| <a href="https://github.com/pjbraga/rub_corpus_and_code/raw/main/_code/rusentilex_2020.txt">rusentilex_2020.txt</a> | Sentiment Lexicon | Russian-language, 4-polarity sentiment lexicon |
+| <a href="https://github.com/pjbraga/rub_corpus_and_code/raw/main/_code/saTagProcessor_2020.py">saTagProcessor_2020.py</a> | Algorithm | After preprocessing, this uses an algorithm to calculate the sentiment of lexicon tagged sentences |
+| <a href="https://github.com/pjbraga/rub_corpus_and_code/raw/main/_code/speech_to_sentence.py">speech_to_sentence.py</a> | Text Structuring | Finds sentences with key words, extracts them from the text, and outputs to a spreadsheet |
+| <a href="https://github.com/pjbraga/rub_corpus_and_code/raw/main/_code/tagProcessor_lib_2020.py">tagProcessor_lib_2020.py</a> | Function Library | a library of functions for processing sentiment tags |
 
 ### Crawling/Scraping Programs
 The crawling/Scraping programs are built with Python 3.7.1 ([Van Rossum & Drake, 2018](https://www.python.org/downloads/release/python-371/)), BeautifulSoup 4.7.1 ([Richardson, 2019](https://www.crummy.com/software/BeautifulSoup/bs4/download/4.7/)) and other Python third party software (such as Pandas) to crawl webpages and scrape relevant texts ([PyData Development Team, 2019](https://pandas.pydata.org/pandas-docs/stable/whatsnew/v0.24.1.html); [Reitz, 2019](https://github.com/psf/requests-html)).
@@ -134,7 +134,7 @@ At this point, the texts are ready for sentiment analysis.
 The RUB Code sentiment analysis is a function of two parts: the RuSentiLex Lexicon (a dictionary of sentiment bearing words and their corresponding sentiments; see the rusentilex_2020.txt file in the downloads table above) and an algorithm (a series of mathematical rules to decide the sentiment for each sentence processed; see the saTagProcessor_2020.py and tagProcessor_lib_2020.py scripts also in the downloads table above).
 
 This is essentially what the process looks like:
-<img src="/images/SA_Chapter_F1.png" width="400" class="align-center">
+<img src="/rub_corpus_and_code/images/SA_Chapter_F1.png" width="400" class="align-center">
 
 The “Collected Texts” are assembled by the crawler/scrapers (discussed in the “Crawling/Scraping Programs” section above). The “Input” and “Tokeniser” stages equate to the preprocessing steps descibed in “Data Handling (Preprocessing) Tasks” directly above. The “Dictionary” (lexicon) and “Match” (algorithm) stages decide the sentiment of sentences. The result (in the case of RuSentiLex) “scores” one of four possible sentiments: positive, negative, neutral, or ambiguous. Sentences that cannot be matched are “ignored.” 
 
@@ -158,7 +158,7 @@ The second stage of algorithmic rules is triggered only if the highest sentiment
 The RUB Code sentiment analysis is crude. But the algorithm has proven effective at identifying positive or negative sentiment sentences in [Rubtsova's (2015)](http://study.mokoron.com/) large test datasets.
 
 The following image is a confusion matrix, which provides more detail on the accuracy of the RUB Code's sentiment anlaysis:
-<img src="/images/confusion_matrix.png" width="800" class="align-center">
+<img src="/rub_corpus_and_code/images/confusion_matrix.png" width="800" class="align-center">
 
 The far left-side of the matrix shows the number of sentences in the positive and negative test datasets. “Actual Positive Sentiment Sentences from Test Dataset” indicates there are 97,682 positive sentences. “Actual Negative Sentiment Sentences from Test Dataset” points to 94,965 negative sentences. At the top of the matrix, “Predicted Sentiment Using RuSentiLex with Emoticons” shows the total number of sentences coded by the RUB Code. Each RuSentiLex sentiment has its own cell heading. The RUB Code categorised 72,927 as positive, 92,590 as negative, 5,459 as neutral, and 21,671 as ambiguous for both test datasets. The interior of the confusion matrix (identifiable by the thick, black border surrounding it) separates categorisation results for the two different test datasets. The boxes coloured light-grey indicate accurate classifications (the number of sentences given the correct sentiment). Because there are only positive sentiment and a negative sentiment test datasets, there are only two light-grey boxes. The uncoloured, white boxes tally the SA program’s errors: the false positives and false negatives.
 
@@ -168,10 +168,10 @@ Unfortunately, there are no open source, Russian-language datasets to test neutr
 
 While this is a limitation, the RUB Code is still fit-for-purpose to track policymaker sentiment. The code can adequately discern between positive and negative sentiment (with F1 scores of 78 and 83 percent respectively). This handles the fundamental task of deciding whether policymakers are for or against an issue. Ambiguity and neutrality are, arguably, less important to when trying to discover policymaker positions.
 
-A selection of results of the RUB Code's sentiment analysis of the [RUB Corpus](/corpus/) can be viewed on the [Data Visualistions page](/visuals/).
+A selection of results of the RUB Code's sentiment analysis of the [RUB Corpus](/corpus/) can be viewed on the [Data Visualistions page](/rub_corpus_and_code/visuals/).
 
 ### Contact
-For any issues with the RUB Corpus and Code repositories, please use <a href="https://github.com/pjbraga/pjbraga.github.io">GitHub</a>. 
+For any issues with the RUB Corpus and Code repositories, please use <a href="https://github.com/pjbraga/rub_corpus_and_code">GitHub</a>. 
 
 For general questions about this project or any ideas for academic collaboration, contact Peter Braga at: pjbraga.rubcc@gmail.com.
 
