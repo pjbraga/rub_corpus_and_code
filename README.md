@@ -57,3 +57,6 @@ For any issues with the RUB Corpus and Code repositories, please use <a href="ht
 
 # Contact
 For general questions about this project or any ideas for academic collaboration, contact Peter Braga at: pjbraga.rubcc@gmail.com.
+
+# References
+<strong>Loukachevitch, N. and Levchik, A.</strong> (2016). Creating a General Russian Sentiment Lexicon. In Proceedings of Language Resources and Evaluation Conference LREC-2016. Available at: <a href="http://www.lrec-conf.org/proceedings/lrec2016/pdf/285_Paper.pdf">http://www.lrec-conf.org/proceedings/lrec2016/pdf/285_Paper.pdf</a>.
