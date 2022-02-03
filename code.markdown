@@ -43,7 +43,7 @@ To use any of the RUB Code scripts, please use the following citation:
 
 The various scripts contain multiple notes and comments, which are intended to make the code easier to understand.
 
-All the scripts uploaded here begin with a strandard file header, and then a comment block of four headings:
+All the scripts uploaded here begin with a standard file header, and then a comment block with the following four headings:
 - Description (a one-to-two sentence explanation of the script)
 - Requirements (necessary prerequisites to run the script)
 - Summary of Code (synopsis of the layout and function of the script)
