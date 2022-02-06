@@ -153,7 +153,7 @@ This stage can be explained with the following example. A sentence is found to h
 
 The aim is that only sentences clearly displaying a particular sentiment are labelled as such.
 
-The second stage of algorithmic rules is triggered only if the highest sentiment is unclear. If positive sentiment is equal to negative sentiment in a sentence, the sentence is labelled as “ambiguous” in sentiment. And if all sentiments are equal in the sentence, this also understood as “ambiguous.” If positive sentiment is equal to ambiguous or neutral sentiment, the sentence is labelled as “positive.” Vice versa with negative sentiment. Finally, if the sentence has no discernible sentiment, it is labelled“not classifiable” and ignored. 
+The second stage of algorithmic rules is triggered only if the highest sentiment is unclear. If positive sentiment is equal to negative sentiment in a sentence, the sentence is labelled as “ambiguous” in sentiment. And if all sentiments are equal in the sentence, this also understood as “ambiguous.” If positive sentiment is equal to ambiguous or neutral sentiment, the sentence is labelled as “positive.” Vice versa with negative sentiment. Finally, if the sentence has no discernible sentiment, it is labelled “not classifiable” and ignored. 
 
 The RUB Code sentiment analysis is crude. But the algorithm has proven effective at identifying positive or negative sentiment sentences in [Rubtsova's (2015)](http://study.mokoron.com/) large test datasets.
 
