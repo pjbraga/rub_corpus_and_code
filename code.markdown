@@ -73,7 +73,7 @@ Under each crawling/scraping program function, there is (or should be) a short d
 
 The crawling and scraping programs were designed with one guiding prinicple: to gather (as accurately as possible) only the words spoken by the policymaker/s in question.
 
-This form of data acquisition is the first step of the sentiment analysis pipeline. The more accurate it is, the more effective the later preprocessing and sategorisation steps can be.
+This form of data acquisition is the first step of the sentiment analysis pipeline. The more accurate it is, the more effective the later preprocessing and categorisation steps can be.
 
 It should be noted that crawling and scraping programs often need to be tailor-made for each website they encounter.
 
