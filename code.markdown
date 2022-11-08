@@ -6,7 +6,7 @@ permalink: /code/
 ---
 The RUB Code collection is a series of programs used to (1) assemble the [RUB Corpus](/rub_corpus_and_code/corpus/) and (2) conduct a Russian-language, lexicon-based, sentiment analysis upon the RUB Corpus. 
 
-All the Code programs are writtin in [python](https://docs.python.org/3/). 
+All the Code programs are written in [python](https://docs.python.org/3/). 
 
 The sentiment analysis uses a modified version of the lexicon created by [Loukachevitch & Levchik (2016)](http://www.labinform.ru/pub/rusentilex/index.htm).
 
